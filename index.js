@@ -24,8 +24,8 @@ app.get("/", (req, res)=> {
 
 
 const getDarajaToken = async ()=> {
-  const secret = "0iZbIee5QbS3MTqf";
-  const consumer = "q3jAXG12QS9dPe4ZfEF2GEPsKdDb2DFE";
+  const secret = "Yiur Secrete Here";
+  const consumer = "Your Consumer Key here";
   const auth = new Buffer.from(`${consumer}:${secret}`).toString("base64");
 
   const requuestResult = await fetch(
